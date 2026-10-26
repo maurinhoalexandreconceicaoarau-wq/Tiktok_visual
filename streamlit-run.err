@@ -1,0 +1,15 @@
+2026-10-24 01:46:14.538 Uvicorn server started on :::8504
+2026-10-24 01:48:28.450 Config theme.chartSequentialColors should have 10 color values, but got 7. Defaulting to Streamlit's default colors.
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Epifania\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Epifania\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-24 01:48:57.988 Config theme.chartSequentialColors should have 10 color values, but got 7. Defaulting to Streamlit's default colors.
+2026-10-24 01:49:14.114 Config theme.chartSequentialColors should have 10 color values, but got 7. Defaulting to Streamlit's default colors.
+2026-10-24 01:49:25.840 Config theme.chartSequentialColors should have 10 color values, but got 7. Defaulting to Streamlit's default colors.
